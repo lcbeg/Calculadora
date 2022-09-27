@@ -30,9 +30,12 @@
         </div>
         <div class="row">
             <div class="btn-group mb-2" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary" onclick="calcula('+')">+</button>
-                <button type="button" class="btn btn-primary" onclick='calcula("-")'>-</button>
-                <button type="button" class="btn btn-primary" onclick="calcula('/')">x</button>
+                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" onclick="calcula('+')">
+                <label class="btn btn-outline-secondary" for="vbtn-radio1">+</label>
+                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" onclick="calcula('-')">
+                <label class="btn btn-outline-secondary" for="vbtn-radio2">-</label>
+                <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off" onclick="calcula('*')">
+                <label class="btn btn-outline-secondary" for="vbtn-radio3">x</label>              
         </div>
     </div>
     </main>

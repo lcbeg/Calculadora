@@ -12,7 +12,7 @@ function calcula(op) {
         case "-":
             operacion = (a, b) => a - b;
             break;
-        case "/":
+        case "*":
             operacion = (a, b) => a * b;
             break;
     }
